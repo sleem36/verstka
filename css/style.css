@@ -17,10 +17,15 @@ a:hover{text-decoration:none;color: #77c723;}
 
 
 /*This site*/
-.container{ max-width:1200px; margin:auto;} 
+.container{ 
+    max-width:1200px!important; 
+    margin:auto;
+    padding-right: 0px;
+    padding-left: 0px;    
+} 
 .search input {
-    width: 200px;
-    margin-left: 23px;
+    width: 216px;
+    margin-left: 18px;
     margin-top: 15px;
     height: 44px;
     display: block;
@@ -44,8 +49,8 @@ a:hover{text-decoration:none;color: #77c723;}
     white-space: nowrap;
 }
 .sMenu {
-    margin-left: 26px;
-    margin-top: 11px;
+    margin-left: 28px;
+    margin-top: 24px;
 }
 .sMenu li {
     display: block;
@@ -66,6 +71,7 @@ a:hover{text-decoration:none;color: #77c723;}
     text-transform: uppercase;
     letter-spacing: 0.9px;	
     text-decoration: none;
+    white-space: nowrap;    
 }
 .flex {
     display: flex;
@@ -159,19 +165,26 @@ a:hover{text-decoration:none;color: #77c723;}
 }
 .vi a {
     font-weight: bold; 
+    color: #fff;   
 }  
 .bread {
+    margin-top: 46px;
+    margin-bottom: 50px;
+    font-size: 15px;   
+}
+.bread a {
     color: #f57365;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 400;
     line-height: 18px;
     letter-spacing: 0.8px; 
-    margin-top: 46px;
-    margin-bottom: 50px;
+    text-decoration: none;
+    margin: 10px;
 }
 .bread span {
     color: #000000;
-    letter-spacing: 0.8px;   
+    letter-spacing: 0.8px;  
+    margin: 10px;    
 }
 .zag {
     color: #000000;
@@ -209,7 +222,7 @@ a:hover{text-decoration:none;color: #77c723;}
     padding-top: 10px;
     margin-bottom: 18px;
 }
-.zag-with {
+h2 {
     color: #000000;
     font-size: 18px;
     font-weight: 700;
@@ -250,7 +263,7 @@ a:hover{text-decoration:none;color: #77c723;}
     padding: 0;
     padding-top: 9px;
 }
-.text-zag {
+h3 {
     font-size: 18px;
     font-weight: 700;
     letter-spacing: 0.9px;
@@ -389,7 +402,7 @@ ul.li li {padding-bottom: 8px;}
     margin-top: 86px;    
 }
 .spisok-left {
-    width: 23%;
+    width: 25%;
     padding-right: 23px;  
 }
 .spisok-right {
@@ -540,4 +553,19 @@ footer .phone {
 }
 .header .sMenu li a:hover {
     text-decoration: underline;
+}
+.carousel-control-prev-icon {
+    width: 70px!important;
+    height: 70px!important;
+    background-image: url(../images/left.png)!important;  
+}
+.carousel-control-next-icon {
+    width: 70px!important;
+    height: 70px!important;
+    background-image: url(../images/right.png)!important;  
+}
+.in-banner {
+    width: 100%;
+    position: absolute;
+    text-align: center;
 }
